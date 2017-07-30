@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/pythonButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9b59b6"
+            android:onClick="python_button"
+            android:text="Python"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/cButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9b59b6"
+            android:onClick="c_button"
+            android:text="C"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/javaButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9b59b6"
+            android:onClick="java_button"
+            android:text="JAVA"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/cPlusPlusButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9b59b6"
+            android:onClick="cplusplus_button"
+            android:text="C++"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/cSharpButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9b59b6"
+            android:onClick="csharp_button"
+            android:text="c#"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/javaScriptButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9b59b6"
+            android:onClick="javascript_button"
+            android:text="JavaScript"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/rButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9b59b6"
+            android:onClick="r_button"
+            android:text="R"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/swiftButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9b59b6"
+            android:onClick="swift_button"
+            android:text="Swift"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/phpButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9b59b6"
+            android:onClick="php_button"
+            android:text="PHP"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/htmlandcssButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9b59b6"
+            android:onClick="htmlandcss_button"
+            android:text="HTML and CSS"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/skipButton"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#e74c3c"
+        android:onClick="skip_button"
+        android:text="SKIP"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+
+</LinearLayout>

@@ -1,2 +1,1 @@
-# AngelSolve
-AngelHack Silicon Valley 2017 Submission
+# https://github.com/Affinitive/AngelSolveAHSV

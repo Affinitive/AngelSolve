@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/csButton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#9b59b6"
+            android:onClick="cs_button"
+            android:text="Computer Science"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/mathbutton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#1abc9c"
+            android:onClick="math_button"
+            android:text="MATHEMATICS"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/physicsbutton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#f1c40f"
+            android:onClick="physics_button"
+            android:text="PHYSICS"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/chemistrybutton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#e67e22"
+            android:onClick="chemistry_button"
+            android:text="CHEMISTRY"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/biologybutton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#e74c3c"
+            android:onClick="biology_button"
+            android:text="BIOLOGY"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/economicsbutton"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#34495e"
+            android:onClick="economics_button"
+            android:text="ECONOMICS"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

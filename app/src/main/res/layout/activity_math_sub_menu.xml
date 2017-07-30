@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/algebraButton"
+        android:layout_width="88dp"
+        android:layout_height="100dp"
+        android:onClick="algebra_button"
+        android:text="ALGEBRA I"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/GeometryButton"
+        android:layout_width="0dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="86dp"
+        android:onClick="geometry_button"
+        android:text="GEOMETRY"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/algebra2Button"
+        android:layout_width="360dp"
+        android:layout_height="85dp"
+        android:onClick="algebraii_button"
+        android:text="ALGEBRA II/TRIGONOMETRY"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="171dp" />
+    <Button
+        android:id="@+id/precalculusButton"
+        android:layout_width="360dp"
+        android:layout_height="85dp"
+        android:onClick="precalculus_button"
+        android:text="PRE-CALCULUS"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="256dp" />
+    <Button
+        android:id="@+id/CalculusButton"
+        android:layout_width="360dp"
+        android:layout_height="85dp"
+        android:onClick="calculus_button"
+        android:text="CALCULUS"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="341dp" />
+    <Button
+        android:id="@+id/skipButton"
+        android:layout_width="360dp"
+        android:layout_height="85dp"
+        android:onClick="skip_button"
+        android:text="SKIP"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="426dp"
+        android:background="#ff0000"
+        android:textColor="#ffffff"/>
+
+</android.support.constraint.ConstraintLayout>
